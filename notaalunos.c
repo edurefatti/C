@@ -35,6 +35,6 @@ for (int i = 0; i < alunos; i++){
 somanota+=nota[i];
 }
 media = (float) somanota/alunos;
-printf("\nMedia de notas: %f", media);
+printf("\nMedia de notas: %.2f", media);
 return 0;
 }
