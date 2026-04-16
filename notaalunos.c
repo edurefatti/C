@@ -2,7 +2,7 @@
 #define tam 10
 #define alunos 3
 int main (){
-    int maior = 0, n,resultado[alunos][tam], nota[tam]={0},somanota=0;
+    int maior = 0, nota[tam]={0},somanota=0;
     char gabarito[tam],respostas[tam];
     float media;
     printf("Digite o gabarito(a,b,c,d ou e):\n");
