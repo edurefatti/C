@@ -21,7 +21,7 @@ int main ()
         scanf(" %c", &gabarito[i]);
         if (gabarito[i] < 'a' || gabarito[i] > 'e')
         {
-            printf("Caractere '%c' invalido! Use apenas a, b, c, d ou e.\n", gabarito[i]);
+            printf("Caractere '%c' invalido. Use apenas a, b, c, d ou e.\n", gabarito[i]);
             return 0;
 
         }
@@ -34,7 +34,7 @@ int main ()
             scanf(" %c", &respostas[j]);
             if (respostas[j] < 'a' || respostas[j] > 'e')
             {
-                printf("Caractere '%c' invalido! Use apenas a, b, c, d ou e.\n", respostas[j]);
+                printf("Caractere '%c' invalido. Use apenas a, b, c, d ou e.\n", respostas[j]);
                 return 0;
             }
             if (respostas[j] == gabarito[j])
